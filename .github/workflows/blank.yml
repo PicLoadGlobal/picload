@@ -33,6 +33,7 @@ jobs:
       - name: Install & Convert
         run: |
           npm install -g webp-batch-convert@0.1.2
+          npm i js-md5 node-fetch@2 --save
           cwebp-batch --in ./ --out ./ -q 75 -quiet
           cp *.webp main.webp
           
