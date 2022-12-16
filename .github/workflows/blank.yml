@@ -52,4 +52,9 @@ jobs:
           
       - name: Push
         run: |
+          git config --global user.email "ohhhcky+picload@outlook.com"
+          git config --global user.name "PicLoadGlobal"
+          git add -A
+          git commit -m "Publish"
+          git push origin master
 
