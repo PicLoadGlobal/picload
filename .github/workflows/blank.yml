@@ -38,9 +38,7 @@ jobs:
       # 发布 NPM 包
       - name: Publish Package
         run: |
-          git config --global user.email "ohhhcky+picload@outlook.com"
-          git config --global user.name "PicLoadGlobal"
-          npm version patch
+          node update.js
           npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
@@ -51,6 +49,4 @@ jobs:
           
       - name: Push
         run: |
-          git add -A
-          git commit -m "Publish"
-          git push origin main
+
