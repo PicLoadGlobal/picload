@@ -47,6 +47,7 @@ jobs:
       # 删除 rawimg/ 和 webpimg/ 下的所有文件
       - name: Delete Files
         run: |
+          rm -rf *.jpg *.jpeg *.webp *.png *.ico *.svg
           
       - name: Push
         run: |
