@@ -1,1 +1,1 @@
-{"name":"picloadglobal","version":"0.0.7-16f8fd751afcd149095b9b25518bb597","description":"","author":"PicLoadGlobal","main":"main.webp","dependencies":{"js-md5":"^0.7.3","node-fetch":"^2.6.7"}}
+{"name":"picloadglobal","version":"0.0.8-c470d594cce55821e6dacf6e01c418d2","description":"","author":"PicLoadGlobal","main":"main.webp","dependencies":{"js-md5":"^0.7.3","node-fetch":"^2.6.7"}}
