@@ -2,5 +2,6 @@
   "name": "picloadglobal",
   "version": "0.0.2",
   "description": "",
-  "author": "PicLoadGlobal"
+  "author": "PicLoadGlobal",
+  "main": "main.webp"
 }
